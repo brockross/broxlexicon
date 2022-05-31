@@ -36,7 +36,8 @@
 - **Apocope** - linguistics--the loss of sounds at the end of a word (e.g. curio from curiosity)
 - **Meatus** - an anatomical orifice
 - **Prolix** - excessive, verbose
-- **Bolection** - a usually convex trim/molding separating to planes or surfaces
+- **Bolection** - a usually convex trim/molding separating two planes or surfaces
+	-
 - **Reglets** - flashing on low roof systems to keep out moisture
 - **Dipsomania** - alcoholism
 - **Optative** - a literary mood (from Greek) denoting a wish or longing--e.g. “if only”
