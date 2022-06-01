@@ -4,7 +4,7 @@ const readline = require("readline");
 
 const FILE_PATH = "./vocab.md";
 
-type WordDatum = {
+export type WordDatum = {
   word: string;
   definition: string;
 };
@@ -27,7 +27,7 @@ const processFile = async () => {
   });
 
   await events.once(rl, "close");
-  fs.writeFileSync("./test.json", JSON.stringify(words));
+  fs.writeFileSync("./word-list.json", JSON.stringify(words));
 };
 
 processFile();
@@ -37,6 +37,7 @@ const checkIsWordLine = (line: string): boolean => {
 };
 
 const getWordDatum = (line: string): WordDatum | null => {
+  // TODO this is mega brittle and will immediately break with the smallest formatting discrepancy in my notes. I should make it more robust
   const chunks = line.split("**");
   const word = chunks[1];
   const definitionChunk = chunks[2];

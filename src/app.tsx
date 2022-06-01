@@ -1,7 +1,15 @@
 import React from "react";
+import styled from "styled-components";
+
+import { Main } from "./main";
 
 function App() {
-  return <h1>b r o x l e x i c o n</h1>;
+  return (
+    <div>
+      <h1>broxlexicon</h1>
+      <Main />
+    </div>
+  );
 }
 
 export default App;
