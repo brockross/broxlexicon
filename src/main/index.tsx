@@ -61,46 +61,19 @@ export function Main() {
   return (
     <Container>
       <Word>{currentWord.word}</Word>
-      <CardsContainer>
-        {gameView === GAME_VIEW.START && (
-          <StartView
-            handleOptionClick={handleIsKnownClick}
-            handleNextClick={handleNextClick}
-          />
-        )}
-        {gameView === GAME_VIEW.DONT_KNOW && (
-          <DontKnowView correctDefinition={correctDefinition} />
-        )}
-        {gameView === GAME_VIEW.CHOICES && (
-          <ChoicesView
-            definitions={currentWord.definitions}
-            correctIdx={currentWord.correctIdx}
-            handleCardChoice={handleCardChoice}
-          />
-        )}
-        {/* {showCards ? (
-          currentWord.definitions.map((def, idx) => {
-            return (
-              <Card
-                onClick={handleCardClick(idx)}
-                $variant={getCardVariant(
-                  idx,
-                  clickedIdx,
-                  currentWord.correctIdx
-                )}
-                key={`${def}-${idx}`}
-              >
-                {def}
-              </Card>
-            );
-          })
-        ) : (
-          <div>
-            <p onClick={() => handleIsKnownClick(true)}>I know it</p>
-            <p onClick={() => handleIsKnownClick(false)}>I don't know it</p>
-          </div>
-        )} */}
-      </CardsContainer>
+      {gameView === GAME_VIEW.START && (
+        <StartView handleOptionClick={handleIsKnownClick} />
+      )}
+      {gameView === GAME_VIEW.DONT_KNOW && (
+        <DontKnowView correctDefinition={correctDefinition} />
+      )}
+      {gameView === GAME_VIEW.CHOICES && (
+        <ChoicesView
+          definitions={currentWord.definitions}
+          correctIdx={currentWord.correctIdx}
+          handleCardChoice={handleCardChoice}
+        />
+      )}
       <NextButton disabled={!nextIsEnabled} onClick={handleNextClick}>
         {">>"}
       </NextButton>
