@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import styled from "styled-components";
 
 import { getWordBank } from "../utils";
+import { DontKnowView } from "./game-views/dont-know";
 import { StartView } from "./game-views/start";
 
 enum GAME_VIEW {
@@ -21,6 +22,7 @@ export function Main() {
   // keep track of current position in wordBank
   const [currentIdx, setCurrentIdx] = useState(0);
   const currentWord = wordBank.current[currentIdx];
+  const correctDefinition = currentWord.definitions[currentWord.correctIdx];
 
   // scoring state
   const [totalScore, setTotalScore] = useState(0);
@@ -82,6 +84,9 @@ export function Main() {
         {gameView === GAME_VIEW.START && (
           <StartView handleOptionClick={handleIsKnownClick} />
         )}
+        {gameView === GAME_VIEW.DONT_KNOW && (
+          <DontKnowView correctDefinition={correctDefinition} />
+        )}
         {/* {showCards ? (
           currentWord.definitions.map((def, idx) => {
             return (
@@ -115,20 +120,6 @@ export function Main() {
 }
 
 const Container = styled.div``;
-const Word = styled.p``;
+const Word = styled.h2``;
 const CardsContainer = styled.div``;
-const Card = styled.div<{ $variant?: string | null }>`
-  border: 2px solid
-    ${({ $variant }) => {
-      if ($variant === "correct") {
-        return "teal";
-      } else if ($variant === "incorrect") {
-        return "tomato";
-      } else {
-        return "darkgrey";
-      }
-    }};
-  padding: 12px;
-  margin-bottom: 16px;
-`;
 const NextButton = styled.button``;
