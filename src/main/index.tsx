@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import styled from "styled-components";
 
 import { getWordBank } from "../utils";
+import { ChoicesView } from "./game-views/choices";
 import { DontKnowView } from "./game-views/dont-know";
 import { StartView } from "./game-views/start";
 
@@ -9,7 +10,6 @@ enum GAME_VIEW {
   START = "start",
   DONT_KNOW = "dont-know",
   CHOICES = "choices",
-  POST_CHOICE = "post-choice",
 }
 
 export function Main() {
@@ -28,14 +28,13 @@ export function Main() {
   const [totalScore, setTotalScore] = useState(0);
   const [streak, setStreak] = useState(0);
 
-  // cards hide/show logic
-  const [showCards, setShowCards] = useState(false);
+  // make a new descriptive heading here
   const handleIsKnownClick = (isKnown: boolean) => {
     if (isKnown) {
-      setShowCards(true);
+      setGameView(GAME_VIEW.CHOICES);
     } else {
       setStreak(0);
-      handleNextClick();
+      setGameView(GAME_VIEW.DONT_KNOW);
     }
   };
 
@@ -86,6 +85,9 @@ export function Main() {
         )}
         {gameView === GAME_VIEW.DONT_KNOW && (
           <DontKnowView correctDefinition={correctDefinition} />
+        )}
+        {gameView === GAME_VIEW.CHOICES && (
+          <ChoicesView definitions={currentWord.definitions} />
         )}
         {/* {showCards ? (
           currentWord.definitions.map((def, idx) => {
