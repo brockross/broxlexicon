@@ -35,45 +35,27 @@ export function Main() {
     } else {
       setStreak(0);
       setGameView(GAME_VIEW.DONT_KNOW);
+      setNextIsEnabled(true);
     }
   };
 
   // selection/next logic
-  const [hasMadeSelection, setHasMadeSelection] = useState(false);
+  const [nextIsEnabled, setNextIsEnabled] = useState(false);
   const handleNextClick = () => {
-    setClickedIdx(null);
-    setHasMadeSelection(false);
     setCurrentIdx(currentIdx + 1);
-    setShowCards(false);
+    setGameView(GAME_VIEW.START);
+    setNextIsEnabled(false);
   };
 
-  // card click logic
-  const [clickedIdx, setClickedIdx] = useState<null | number>(null);
-  const handleCardClick = (idx: number) => () => {
-    if (hasMadeSelection) {
-      return;
-    }
-    if (idx === currentWord.correctIdx) {
+  // card choice logic
+  const handleCardChoice = (isCorrect: boolean) => {
+    if (isCorrect) {
       setTotalScore(totalScore + 1);
       setStreak(streak + 1);
     } else {
       setStreak(0);
     }
-
-    setHasMadeSelection(true);
-    setClickedIdx(idx);
-  };
-
-  // halpers
-  const getCardVariant = (
-    cardIdx: number,
-    clickedIdx: number | null,
-    correctIdx: number
-  ) => {
-    if (cardIdx === clickedIdx) {
-      return cardIdx === correctIdx ? "correct" : "incorrect";
-    }
-    return null;
+    setNextIsEnabled(true);
   };
 
   return (
@@ -81,13 +63,20 @@ export function Main() {
       <Word>{currentWord.word}</Word>
       <CardsContainer>
         {gameView === GAME_VIEW.START && (
-          <StartView handleOptionClick={handleIsKnownClick} />
+          <StartView
+            handleOptionClick={handleIsKnownClick}
+            handleNextClick={handleNextClick}
+          />
         )}
         {gameView === GAME_VIEW.DONT_KNOW && (
           <DontKnowView correctDefinition={correctDefinition} />
         )}
         {gameView === GAME_VIEW.CHOICES && (
-          <ChoicesView definitions={currentWord.definitions} />
+          <ChoicesView
+            definitions={currentWord.definitions}
+            correctIdx={currentWord.correctIdx}
+            handleCardChoice={handleCardChoice}
+          />
         )}
         {/* {showCards ? (
           currentWord.definitions.map((def, idx) => {
@@ -112,7 +101,7 @@ export function Main() {
           </div>
         )} */}
       </CardsContainer>
-      <NextButton disabled={!hasMadeSelection} onClick={handleNextClick}>
+      <NextButton disabled={!nextIsEnabled} onClick={handleNextClick}>
         {">>"}
       </NextButton>
       <p>Score: {totalScore}</p>
