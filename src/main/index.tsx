@@ -2,10 +2,21 @@ import React, { useState, useRef } from "react";
 import styled from "styled-components";
 
 import { getWordBank } from "../utils";
+import { StartView } from "./game-views/start";
+
+enum GAME_VIEW {
+  START = "start",
+  DONT_KNOW = "dont-know",
+  CHOICES = "choices",
+  POST_CHOICE = "post-choice",
+}
 
 export function Main() {
   // put wordBank in a ref so we don't re-randomize the list on every render
   const wordBank = useRef(getWordBank());
+
+  // game view state
+  const [gameView, setGameView] = useState(GAME_VIEW.START);
 
   // keep track of current position in wordBank
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -68,7 +79,10 @@ export function Main() {
     <Container>
       <Word>{currentWord.word}</Word>
       <CardsContainer>
-        {showCards ? (
+        {gameView === GAME_VIEW.START && (
+          <StartView handleOptionClick={handleIsKnownClick} />
+        )}
+        {/* {showCards ? (
           currentWord.definitions.map((def, idx) => {
             return (
               <Card
@@ -89,7 +103,7 @@ export function Main() {
             <p onClick={() => handleIsKnownClick(true)}>I know it</p>
             <p onClick={() => handleIsKnownClick(false)}>I don't know it</p>
           </div>
-        )}
+        )} */}
       </CardsContainer>
       <NextButton disabled={!hasMadeSelection} onClick={handleNextClick}>
         {">>"}
