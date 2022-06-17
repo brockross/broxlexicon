@@ -1,5 +1,4 @@
 import React, { useState, useRef } from "react";
-import styled from "styled-components";
 
 import { getWordBank } from "../utils";
 import { ChoicesView } from "./game-views/choices";
@@ -59,8 +58,8 @@ export function Main() {
   };
 
   return (
-    <Container>
-      <Word>{currentWord.word}</Word>
+    <div>
+      <h2>{currentWord.word}</h2>
       {gameView === GAME_VIEW.START && (
         <StartView handleOptionClick={handleIsKnownClick} />
       )}
@@ -74,15 +73,11 @@ export function Main() {
           handleCardChoice={handleCardChoice}
         />
       )}
-      <NextButton disabled={!nextIsEnabled} onClick={handleNextClick}>
+      <button disabled={!nextIsEnabled} onClick={handleNextClick}>
         {">>"}
-      </NextButton>
+      </button>
       <p>Score: {totalScore}</p>
       <p>Streak: {streak}</p>
-    </Container>
+    </div>
   );
 }
-
-const Container = styled.div``;
-const Word = styled.h2``;
-const NextButton = styled.button``;

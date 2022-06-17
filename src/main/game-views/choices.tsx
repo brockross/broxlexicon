@@ -1,6 +1,4 @@
-import { words } from "lodash";
 import React, { useState } from "react";
-import styled from "styled-components";
 
 import { Card } from "../components";
 
@@ -50,7 +48,7 @@ export function ChoicesView({
   };
 
   return (
-    <Container>
+    <div>
       {definitions.map((def, idx) => {
         return (
           <Card
@@ -61,8 +59,6 @@ export function ChoicesView({
           </Card>
         );
       })}
-    </Container>
+    </div>
   );
 }
-
-const Container = styled.div``;
