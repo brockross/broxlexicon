@@ -52,16 +52,16 @@ export function ChoicesView({
       {definitions.map((def, idx) => {
         const variant = getCardVariant(idx, clickedCardIdx, correctIdx);
         return (
-          <div
-            className={`rounded-md font-body font-light border-2 border-stone-600 mb-2 p-3 ${
-              variant === "correct" ? "bg-teal-500" : ""
-            } ${variant === "incorrect" ? "bg-orange-600" : ""} ${
-              variant === "unclicked" ? "bg-stone-200" : ""
+          <button
+            className={`block w-full rounded-md font-body font-light border-2 border-stone-600 mb-2 p-3 ${
+              variant === "correct" ? "border-teal-500" : ""
+            } ${variant === "incorrect" ? "border-orange-600" : ""} ${
+              variant === "unclicked" ? "border-stone-600" : ""
             }`}
             onClick={() => handleCardClick(idx)}
           >
             {def}
-          </div>
+          </button>
         );
       })}
     </div>
