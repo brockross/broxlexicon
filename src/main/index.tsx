@@ -85,5 +85,4 @@ export function Main() {
 
 const Container = styled.div``;
 const Word = styled.h2``;
-const CardsContainer = styled.div``;
 const NextButton = styled.button``;

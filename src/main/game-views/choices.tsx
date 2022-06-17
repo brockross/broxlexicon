@@ -17,7 +17,7 @@ export function ChoicesView({
 }: ChoicesViewProps) {
   // I'm thinking this component should be smart--managing the responsibility for whether a card has been clicked,
   // styles for correct/incorrect, etc. Main state in parent doesn't need to care about the management of the cards;
-  // it just needs to know A) what to do with scoring, and B) what view to show next
+  // it just needs to know what to do with the score
 
   const [hasMadeSelection, setHasMadeSelection] = useState(false);
   const [clickedCardIdx, setClickedCardIdx] = useState<null | number>(null);
