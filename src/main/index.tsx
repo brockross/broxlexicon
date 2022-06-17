@@ -59,7 +59,11 @@ export function Main() {
 
   return (
     <div>
-      <h2>{currentWord.word}</h2>
+      <div className="text-center p-5">
+        <h2 className="text-4xl font-title text-bold tracking-wide text-stone-800">
+          {currentWord.word}
+        </h2>
+      </div>
       {gameView === GAME_VIEW.START && (
         <StartView handleOptionClick={handleIsKnownClick} />
       )}
