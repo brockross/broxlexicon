@@ -50,13 +50,18 @@ export function ChoicesView({
   return (
     <div>
       {definitions.map((def, idx) => {
+        const variant = getCardVariant(idx, clickedCardIdx, correctIdx);
         return (
-          <Card
-            $variant={getCardVariant(idx, clickedCardIdx, correctIdx)}
+          <div
+            className={`rounded-md font-body font-light border-2 border-stone-600 mb-2 p-3 ${
+              variant === "correct" ? "bg-teal-500" : ""
+            } ${variant === "incorrect" ? "bg-orange-600" : ""} ${
+              variant === "unclicked" ? "bg-stone-200" : ""
+            }`}
             onClick={() => handleCardClick(idx)}
           >
             {def}
-          </Card>
+          </div>
         );
       })}
     </div>

@@ -87,7 +87,7 @@ export function Main() {
         />
       )}
 
-      <div className="flex mt-3">
+      <div className="flex mt-8">
         <button
           className="border-2 border-stone-600 m-auto rounded-md px-2 my-2 w-20 m-auto font-body font-medium disabled:text-stone-400 disabled:border-stone-400"
           disabled={!nextIsEnabled}
