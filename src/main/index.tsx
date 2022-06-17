@@ -59,8 +59,17 @@ export function Main() {
 
   return (
     <div>
-      <div className="text-center p-5">
-        <h2 className="text-4xl font-title text-bold tracking-wide text-stone-800">
+      <div className="flex justify-between items-center mb-8">
+        <h1 className="font-body font-bold text-sm text-stone-600">
+          ( broxlexicon )
+        </h1>
+        <div className="font-body font-light text-xs">
+          <p>score: {totalScore}</p>
+          <p>streak: {streak}</p>
+        </div>
+      </div>
+      <div className="text-center mb-8">
+        <h2 className="text-4xl font-title font-bold tracking-wide text-stone-800">
           {currentWord.word}
         </h2>
       </div>
@@ -77,11 +86,16 @@ export function Main() {
           handleCardChoice={handleCardChoice}
         />
       )}
-      <button disabled={!nextIsEnabled} onClick={handleNextClick}>
-        {">>"}
-      </button>
-      <p>Score: {totalScore}</p>
-      <p>Streak: {streak}</p>
+
+      <div className="flex mt-3">
+        <button
+          className="border-2 border-stone-600 m-auto rounded-md px-2 my-2 w-20 m-auto font-body font-medium disabled:text-stone-400 disabled:border-stone-400"
+          disabled={!nextIsEnabled}
+          onClick={handleNextClick}
+        >
+          {">>"}
+        </button>
+      </div>
     </div>
   );
 }
