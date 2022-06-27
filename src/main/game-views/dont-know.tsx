@@ -4,5 +4,9 @@ type DontKnowProps = {
   correctDefinition: string;
 };
 export function DontKnowView({ correctDefinition }: DontKnowProps) {
-  return <div style={{ border: "2px solid purple" }}>{correctDefinition}</div>;
+  return (
+    <div className="block w-full rounded-md font-body font-light border-2 border-teal-500 mb-2 p-3 text-center">
+      {correctDefinition}
+    </div>
+  );
 }
