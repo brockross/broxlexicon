@@ -52,6 +52,7 @@ export function Main() {
       setTotalScore(totalScore + 1);
       setStreak(streak + 1);
     } else {
+      setTotalScore(totalScore === 0 ? 0 : totalScore - 1);
       setStreak(0);
     }
     setNextIsEnabled(true);

@@ -31,11 +31,6 @@ export const getWordBank = (): WordBankItem[] => {
     let definitionPool = dedupedPool;
 
     if (entry.partOfSpeech === PART_OF_SPEECH.ADJECTIVE) {
-      console.log(
-        `%c ***debug | utils.ts > adj condish`,
-        "background-color: #12908E; color: #f7f7f7; border-radius: 5px; padding: 1em;"
-      );
-      console.log({ entry, dedupedPool });
       definitionPool = dedupedPool.filter(
         (entry) => entry.partOfSpeech === PART_OF_SPEECH.ADJECTIVE
       );
