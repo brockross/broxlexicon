@@ -65,6 +65,9 @@ export function Main() {
           ( broxlexicon )
         </h1>
         <div className="font-body font-light text-xs">
+          <p>
+            progress: {currentIdx + 1}/{wordBank.current.length}
+          </p>
           <p>score: {totalScore}</p>
           <p>streak: {streak}</p>
         </div>

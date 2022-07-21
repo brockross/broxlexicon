@@ -60,7 +60,8 @@ export const getWordBank = (): WordBankItem[] => {
     return { word, definitions, correctIdx };
   });
 
-  return _.shuffle(wordBank);
+  // TODO: make game length configurable
+  return _.shuffle(wordBank).slice(0, 25);
 };
 
 const randInRange = (min: number, max: number): number => {
