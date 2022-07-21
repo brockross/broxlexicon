@@ -9,6 +9,7 @@ enum GAME_VIEW {
   START = "start",
   DONT_KNOW = "dont-know",
   CHOICES = "choices",
+  END = "end",
 }
 
 export function Main() {
@@ -41,9 +42,14 @@ export function Main() {
   // selection/next logic
   const [nextIsEnabled, setNextIsEnabled] = useState(false);
   const handleNextClick = () => {
-    setCurrentIdx(currentIdx + 1);
-    setGameView(GAME_VIEW.START);
-    setNextIsEnabled(false);
+    if (currentIdx + 1 < wordBank.current.length) {
+      setCurrentIdx(currentIdx + 1);
+      setGameView(GAME_VIEW.START);
+      setNextIsEnabled(false);
+    } else {
+      setGameView(GAME_VIEW.END);
+      setNextIsEnabled(false);
+    }
   };
 
   // card choice logic
@@ -75,7 +81,8 @@ export function Main() {
       <div className="md:w-96 m-auto">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-title font-bold tracking-wide text-stone-800">
-            {currentWord.word}
+            {gameView !== GAME_VIEW.END && currentWord.word}
+            {gameView === GAME_VIEW.END && "fin."}
           </h2>
         </div>
         {gameView === GAME_VIEW.START && (
@@ -91,7 +98,6 @@ export function Main() {
             handleCardChoice={handleCardChoice}
           />
         )}
-
         <div className="flex mt-8">
           <button
             className="border-2 border-stone-600 m-auto rounded-md px-2 my-2 w-20 m-auto font-body font-medium disabled:text-stone-400 disabled:border-stone-400"
