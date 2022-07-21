@@ -69,7 +69,7 @@ export function Main() {
           <p>streak: {streak}</p>
         </div>
       </div>
-      <div className="w-[384px] m-auto">
+      <div className="md:w-96 m-auto">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-title font-bold tracking-wide text-stone-800">
             {currentWord.word}
