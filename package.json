@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "yarn parcel src/index.html"
+    "start": "yarn parcel src/index.html",
+    "build": "yarn parcel build src/index.html"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.182",
