@@ -24,6 +24,9 @@ export const getWordBank = (): WordBankItem[] => {
   // account for part of speech -- try to include only defs whose part of speech matches the word
   // problem here: adj. and noun. have plenty of candidates, but with my current data, verb and misc have < 10 each--they'll constanly repeat. Maybe for now I only bother grouping nouns and adjectives, and let answers for other parts of speech populate from the full def pool
 
+  console.log(
+    'Basic info: \n\nGame pulls randomly from my personal vocab list of ~200 words.\n\nChoosing "dont know it" will end your streak but incur no point penalty.\n\nChoosing "know it" and selecting the correct answer awards a point. Selecting the wrong answer deducts a point.'
+  );
   const wordBank = WORD_LIST.map((entry) => {
     const { word, definition } = entry;
     const correctDef = definition;
