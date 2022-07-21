@@ -27,7 +27,7 @@ export const getWordBank = (): WordBankItem[] => {
   const wordBank = WORD_LIST.map((entry) => {
     const { word, definition } = entry;
     const correctDef = definition;
-    let definitionPool = WORD_LIST;
+    let definitionPool = WORD_LIST.filter((entry) => entry.word !== word);
 
     if (entry.partOfSpeech === PART_OF_SPEECH.ADJECTIVE) {
       definitionPool = WORD_LIST.filter(
