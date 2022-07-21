@@ -9,6 +9,12 @@ export type WordDatum = {
   definition: string;
   partOfSpeech: string | null;
 };
+export enum PART_OF_SPEECH {
+  ADJECTIVE = "adjective.",
+  NOUN = "noun.",
+  VERB = "verb.",
+  MISC = "misc.",
+}
 
 const words: WordDatum[] = [];
 
@@ -48,7 +54,14 @@ const getWordDatum = (line: string): WordDatum | null => {
   if (!word || !definition) {
     return null;
   }
-  if (!["adj.", "noun.", "verb.", "misc."].includes(partOfSpeech)) {
+  if (
+    ![
+      PART_OF_SPEECH.ADJECTIVE,
+      PART_OF_SPEECH.NOUN,
+      PART_OF_SPEECH.VERB,
+      PART_OF_SPEECH.MISC,
+    ].includes(partOfSpeech)
+  ) {
     partOfSpeech = null;
   }
 
