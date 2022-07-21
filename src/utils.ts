@@ -10,7 +10,7 @@ type WordBankItem = {
   correctIdx: number;
 };
 enum PART_OF_SPEECH {
-  ADJECTIVE = "adjective.",
+  ADJECTIVE = "adj.",
   NOUN = "noun.",
   VERB = "verb.",
   MISC = "misc.",
@@ -27,15 +27,21 @@ export const getWordBank = (): WordBankItem[] => {
   const wordBank = WORD_LIST.map((entry) => {
     const { word, definition } = entry;
     const correctDef = definition;
-    let definitionPool = WORD_LIST.filter((entry) => entry.word !== word);
+    const dedupedPool = WORD_LIST.filter((entry) => entry.word !== word);
+    let definitionPool = dedupedPool;
 
     if (entry.partOfSpeech === PART_OF_SPEECH.ADJECTIVE) {
-      definitionPool = WORD_LIST.filter(
+      console.log(
+        `%c ***debug | utils.ts > adj condish`,
+        "background-color: #12908E; color: #f7f7f7; border-radius: 5px; padding: 1em;"
+      );
+      console.log({ entry, dedupedPool });
+      definitionPool = dedupedPool.filter(
         (entry) => entry.partOfSpeech === PART_OF_SPEECH.ADJECTIVE
       );
     }
     if (entry.partOfSpeech === PART_OF_SPEECH.NOUN) {
-      definitionPool = WORD_LIST.filter(
+      definitionPool = dedupedPool.filter(
         (entry) => entry.partOfSpeech === PART_OF_SPEECH.NOUN
       );
     }

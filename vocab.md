@@ -17,7 +17,7 @@
 - **Leonine** - _adj._ lion-like
 - **Martinet** - _noun._ a strict disciplinarian, esp. in the military
 - **Pleurisy** - _noun._ inflammation of the tissue between lung and chest wall
-- **Majuscule** - _noun._large lettering, either all-caps or all the same large height
+- **Majuscule** - _noun._ large lettering, either all-caps or all the same large height
 - **Caries** - _noun._ decay/crumbling of tooth or bone. A cavity
 - **Amanuensis** - _noun._ an assistant, especially one who copies/transcribes
 - **Assignation** - _noun._ an appointment to meet in secret, esp. lovers
@@ -87,7 +87,7 @@
 - **Felo de se** - _misc._ suicide. From latin “felon of self”
 - **Quotidian** - _adj._ everyday, ordinary
 - **Ibid** - _misc._ staple of footnotes/endnotes, essentially an abbreviation for “same source as previous”
-- **Tiller** - _noun._ the lever affixed to a boat’s rudder, used for steering (e.g. “at the tiller”)
+- **Tiller** - _noun._ the lever affixed to a boat’s rudder, used for steering
 - **Solecistic** - _adj._ a solecism is a grammatical mistake. Greeks developed this term to pejoratively reference citizens of Soli, Cicilia who they believed had bastardized the language
 - **Lissome** - _adj._ thin, supple, and graceful (of a person’s body)
 - **Swivet** - _noun._ a fluster or panic

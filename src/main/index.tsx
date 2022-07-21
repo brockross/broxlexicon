@@ -68,33 +68,35 @@ export function Main() {
           <p>streak: {streak}</p>
         </div>
       </div>
-      <div className="text-center mb-8">
-        <h2 className="text-4xl font-title font-bold tracking-wide text-stone-800">
-          {currentWord.word}
-        </h2>
-      </div>
-      {gameView === GAME_VIEW.START && (
-        <StartView handleOptionClick={handleIsKnownClick} />
-      )}
-      {gameView === GAME_VIEW.DONT_KNOW && (
-        <DontKnowView correctDefinition={correctDefinition} />
-      )}
-      {gameView === GAME_VIEW.CHOICES && (
-        <ChoicesView
-          definitions={currentWord.definitions}
-          correctIdx={currentWord.correctIdx}
-          handleCardChoice={handleCardChoice}
-        />
-      )}
+      <div className="w-[384px] m-auto">
+        <div className="text-center mb-8">
+          <h2 className="text-4xl font-title font-bold tracking-wide text-stone-800">
+            {currentWord.word}
+          </h2>
+        </div>
+        {gameView === GAME_VIEW.START && (
+          <StartView handleOptionClick={handleIsKnownClick} />
+        )}
+        {gameView === GAME_VIEW.DONT_KNOW && (
+          <DontKnowView correctDefinition={correctDefinition} />
+        )}
+        {gameView === GAME_VIEW.CHOICES && (
+          <ChoicesView
+            definitions={currentWord.definitions}
+            correctIdx={currentWord.correctIdx}
+            handleCardChoice={handleCardChoice}
+          />
+        )}
 
-      <div className="flex mt-8">
-        <button
-          className="border-2 border-stone-600 m-auto rounded-md px-2 my-2 w-20 m-auto font-body font-medium disabled:text-stone-400 disabled:border-stone-400"
-          disabled={!nextIsEnabled}
-          onClick={handleNextClick}
-        >
-          {">>"}
-        </button>
+        <div className="flex mt-8">
+          <button
+            className="border-2 border-stone-600 m-auto rounded-md px-2 my-2 w-20 m-auto font-body font-medium disabled:text-stone-400 disabled:border-stone-400"
+            disabled={!nextIsEnabled}
+            onClick={handleNextClick}
+          >
+            {">>"}
+          </button>
+        </div>
       </div>
     </div>
   );

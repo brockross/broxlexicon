@@ -10,7 +10,7 @@ export type WordDatum = {
   partOfSpeech: string | null;
 };
 export enum PART_OF_SPEECH {
-  ADJECTIVE = "adjective.",
+  ADJECTIVE = "adj.",
   NOUN = "noun.",
   VERB = "verb.",
   MISC = "misc.",
@@ -49,7 +49,7 @@ const getWordDatum = (line: string): WordDatum | null => {
   const word = chunks[1];
   const partOfSpeechAndDefChunk = chunks[2];
   const definition = partOfSpeechAndDefChunk.split("_")[2];
-  let partOfSpeech: string | null = partOfSpeechAndDefChunk.split("_")[1];
+  let partOfSpeech: any = partOfSpeechAndDefChunk.split("_")[1];
 
   if (!word || !definition) {
     return null;
