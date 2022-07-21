@@ -1,197 +1,201 @@
 - INFINITE JEST
   heading:: true
-- **Mimetic** - mimesis is imitation, or more broadly the act of expression or resemblance, especially in literary and philosophical analysis
-- **Bellicose** - aggressive, ready to fight
-- **Quadrumvirate** - a group of 4 powerful/notable people
-- **Coruscate** - to flash or sparkle
-- **Wen** - a large pustule, a boil, a cyst
-- **Aver** - to state or assert (“he averred that he was innocent”)
-- **Matriculation** - admission to a school; i.e. the step immediately following application
-- **Lapidary** - relating to stone/gem cutting, polishing, engraving. Alternately as a noun, the person whose profession it is to do these things
-- **Effete** - of a person: affected, pretentious, and consequently ineffectual
-- **Sotto voce** - quiet, whispered/murmured (from italian, literally “under voice”)
-- **Presbyopic** - farsighted
-- **Ideogram** - a symbol representing the idea of a thing without representing its phonetic name (e.g., numerals like “7” as opposed to the letters “seven”)
-- **Creatus** - latin, “born of” or “created of”
-- **Enfilade** - a volley of gunfire OR a series of rooms with aligned doorways e.g. along a hall
-- **Leonine** - lion-like
-- **Martinet** - a strict disciplinarian, esp. in the military
-- **Pleurisy** - inflammation of the tissue between lung and chest wall
-- **Majuscule** - (probably a Wallacean neologism) capital letters, something like the opposite of miniscule
-- **Caries** - decay/crumbling of tooth or bone. A cavity
-- **Amanuensis** - an assistant, especially one who copies/transcribes
-- **Assignation** - an appointment to meet in secret, esp. lovers
-- **Mise en scene** - the arrangement of scenery and stage props--the set
-- **Lyrologist** - neologism. Unclear.
-- **Locution** - a word or phrase, particularly with regard to style or idiom characteristic of a certain group
-- **Legation** - a diplomatic minister
-- **Apposite** - appropriate, fitting
-- **Retinue** - a group of advisers/assistants accompanying an important person
-- **Ad valorem** - (of a tax) in proportion to the item’s estimated value
-- **Non-pareil** - without parallel, unmatched
-- **Dyspeptic** - with indigestion, and ill-tempered as a result
-- **Anfractuous** - sinuous, circuitous--curving, snaking, circling back on itself
-- **Diffident** - modest/shy, lacking confidence
-- **Neuralgic** - having nerve pain
-- **Apocope** - linguistics--the loss of sounds at the end of a word (e.g. curio from curiosity)
-- **Meatus** - an anatomical orifice
-- **Prolix** - excessive, verbose
-- **Bolection** - a usually convex trim/molding separating two planes or surfaces
-	-
-- **Reglets** - flashing on low roof systems to keep out moisture
-- **Dipsomania** - alcoholism
-- **Optative** - a literary mood (from Greek) denoting a wish or longing--e.g. “if only”
-- **Incunabulum** - a book or pamphlet published before ca. 1500
-- **Concupiscence** - lust
-- **Recondite** - little known, obscure (esp. of a subject)
-- **Argot** - slang specific to a group. Lingo
-- **Deliquesce** - to become liquid during decomposition (of organic matter)
-- **Plangent** - loud, reverberating, and melancholy (of a sound)
-- **Leptosomatic** - having a slender, light, or thin body
-- **Prandial** - relating to lunch or dinner
-- **Tympanum** - the eardrum OR a semicircular/triangular space above the entrance to a building, often a cathedral or similar
-- **Discursive** - relating to discourse OR prone to jumping from subject to subject disjointedly
-- **Aleatory** - chance-based, random
-- **Sobriquet** - a nickname, especially a descriptive one without need of explanation (e.g. Vlad the Impaler)
-- **Ken** - one’s range of knowledge or insight (“that’s beyond my ken”) OR in old scottish, to know
-- **Cui bono** - who stands to gain? (from a crime, i.e. who has motive?)
-- **Pedentive** - byzantine architectural feature
-- **Byzantine** - of or relating to Byzantium (now Istanbul), OR excessively complicated (of a system)
-- **Fallow** - (of farmland) ploughed or harrowed but not seeded/sown
-- **Denude** - to strip something of its coverings and make it bare (should this be “benude?”)
-- **Fulvous** - reddish-yellow, tawny, brown-orange
-- **Semion/Semiotics** - semion is a “sign” e.g. a metaphysical message e.g. semiotic phantasmagoria
-- **Sangfroid** - literally “blood cold”--coolness under pressure
-- **Osseous** - consisting of or turned to bone--ossified
-- **Boscage** - massed trees or shrubs
-- **Involuted** - complicated, abstruse
-- **Putative** - generally considered or reported to be. (“the assumed author of the book/the putative author of the book”)
-- **Tumescent** - engorged, as a tumor
-- **Annular** - ring-shaped, circular
-- **Erumpent** - bursting forth through a surface
-- **Mens sana** - from latin “mens sana in corpore sano” (a healthy mind in a healthy body)
-- **Teratoid** - an abnormal tumor
-- **Invaginate** - (anatomy, biology) to turn outward or fold in such a way that an inner surface becomes an outer surface
-- **Scabrous** - rough, as though (or literally) covered with scabs OR salacious
-- **Gestalt** - psychological term denoting a “whole,” especially as perceived more than and prior to the sum of its parts
-- **Frustrum** - in geometry, the section of a solid sandwiched between two parallel planes, especially where one plane is the base
-- **Afflatus** - a divine impulse or inspiration
-- **Acclivated** - upward-sloping
-- **Apotropaic** - having the power to avert evil influences or bad luck
-- **Micturate** - to urinate
-- **Lacuna** - an unfilled space or interval. A gap
-- **Vim** - energy, vigor
-- **Redolent** - strongly reminiscent or suggestive of
-- **Interdict** - to forbid or prohibit
-- **Sedulous** - showing dedication and diligence
-- **Lordotic** - displaying inward curving of the lower spine
-- **Tumid** - tumescent, swelling
-- **Felo de se** - suicide. From latin “felon of self”
-- **Quotidian** - everyday, ordinary
-- **Ibid** - staple of footnotes/endnotes, abbreviation for “same source as previous” Ditto marks in latin
-- **Tiller** - the lever affixed to a boat’s rudder, used for steering (e.g. “at the tiller”)
-- **Solecistic** - a solecism is a grammatical mistake. Greeks developed this term to pejoratively reference citizens of Soli, Cicilia who they believed had bastardized the language
-- **Lissome** - thin, supple, and graceful (of a person’s body)
-- **Ascapart** - a legendary giant from english folklore
-- **Swivet** - a fluster or panic
-- **Falcate** - curved like a sickle, hooked
-- **Anapestic** - anapest is a type of poetic meter consisting of three syllables in which the first two are unstressed and the third is stressed (e.g. “contradict” or “understand”. duh duh DUH)
-- **Profligate** - excessive, recklessly extravagant and wasteful of resources
-- **Baroque** - denoting a european style of the 17th and 18th centuries, or more generally, lavish/ornate in style
-- **Picayune** - petty and worthless
-- **Atavistic** - characterized by a regression to something ancestral or ancient (“atavistic fears of angering the gods”)
-- **Etiology** - the causes of a disease or condition; the investigation/attribution of the cause or reason for something, often in historical or mythological terms
-- **Chyme** - the pulpy acidic fluid which passes from stomach to small intestine--stomach juices and digested food
-- **Assuasive** - soothing, freeing from fear or anxiety
-- **Avuncular** - relating to an uncle
-- **Eschatology** - the section of theology concerned with death, judgment, destiny, and mankind’s final fate (“eschaton” being the end of the world)
+- **Mimetic** - _adj._ imitative, especially in literary and philosophical analysis
+- **Bellicose** - _adj._ aggressive, ready to fight
+- **Quadrumvirate** - _noun._ a group of 4 powerful/notable people
+- **Coruscate** - _verb._ to flash or sparkle
+- **Wen** - _noun._ a large pustule, a boil, a cyst
+- **Aver** - _verb._ to state or assert something
+- **Matriculation** - _noun._ admission to a school; i.e. the step immediately following application
+- **Lapidary** - _adj._ relating to stone/gem cutting, polishing, engraving. Alternately as a noun, the person whose profession it is to do these things
+- **Effete** - _adj._ of a person: affected, pretentious, and consequently ineffectual
+- **Sotto voce** - _adj._ quiet, whispered/murmured (from italian, literally “under voice”)
+- **Presbyopic** - _adj._ farsighted
+- **Ideogram** - _noun._ a symbol representing the idea of a thing without representing its phonetic name (e.g., numerals like “7” as opposed to the letters “seven”)
+- **Creatus** - _misc._ latin, “born of” or “created of”
+- **Enfilade** - _noun._ a volley of gunfire OR a series of rooms with aligned doorways e.g. along a hall
+- **Leonine** - _adj._ lion-like
+- **Martinet** - _noun._ a strict disciplinarian, esp. in the military
+- **Pleurisy** - _noun._ inflammation of the tissue between lung and chest wall
+- **Majuscule** - _noun._large lettering, either all-caps or all the same large height
+- **Caries** - _noun._ decay/crumbling of tooth or bone. A cavity
+- **Amanuensis** - _noun._ an assistant, especially one who copies/transcribes
+- **Assignation** - _noun._ an appointment to meet in secret, esp. lovers
+- **Mise en scene** - _noun._ the arrangement of scenery and stage props--the set
+- **Locution** - _noun._ a word or phrase, particularly with regard to style or idiom characteristic of a certain group
+- **Legation** - _noun._ a diplomatic minister
+- **Apposite** - _adj._ appropriate, fitting
+- **Retinue** - _noun._ a group of advisers/assistants accompanying an important person
+- **Ad valorem** - _adj._ (of a tax) in proportion to the item’s estimated value
+- **Non-pareil** - _adj._ without parallel, unmatched
+- **Dyspeptic** - _adj._ with indigestion, and ill-tempered as a result
+- **Anfractuous** - _adj._ sinuous, circuitous--curving, snaking, circling back on itself
+- **Diffident** - _adj._ modest/shy, lacking confidence
+- **Neuralgic** - _adj._ having nerve pain
+- **Apocope** - _noun._ linguistics--the loss of sounds at the end of a word (e.g. "photo" from "photograph")
+- **Meatus** - _noun._ an anatomical orifice
+- **Prolix** - _adj._ excessive, verbose
+- **Bolection** - _noun._ a usually convex trim/molding separating two planes or surfaces
+- **Reglets** - _noun._ flashing on low roof systems to keep out moisture
+- **Dipsomania** - _noun._ alcoholism
+- **Optative** - _adj._ denoting a literary mood (from Greek) expressing a wish or longing--e.g. “if only”
+- **Incunabulum** - _noun._ a book or pamphlet published before ca. 1500
+- **Concupiscence** - _noun._ lust
+- **Recondite** - _adj._ little known, obscure (esp. of a subject)
+- **Argot** - _noun._ slang specific to a group. Lingo
+- **Deliquesce** - _verb._ to become liquid during decomposition (of organic matter)
+- **Plangent** - _adj._ loud, reverberating, and melancholy (of a sound)
+- **Leptosomatic** - _adj._ having a slender, light, or thin body
+- **Prandial** - _adj._ relating to lunch or dinner
+- **Tympanum** - _noun._ the eardrum OR a semicircular/triangular space above the entrance to a building, often a cathedral or similar
+- **Discursive** - _adj._ relating to discourse OR prone to jumping from subject to subject disjointedly
+- **Aleatory** - _adj._ chance-based, random
+- **Sobriquet** - _noun._ a nickname, especially a descriptive one without need of explanation (e.g. Vlad the Impaler)
+- **Ken** - _noun._ one’s range of knowledge or insight OR in old scottish, to know
+- **Cui bono** - _misc._ who stands to gain? (from a crime, i.e. who has motive?)
+- **Pedentive** - _noun._ a byzantine architectural feature
+- **Byzantine** - _adj._ of or relating to Byzantium (now Istanbul), OR excessively complicated (of a system)
+- **Fallow** - _adj._ (of farmland) ploughed or harrowed but not seeded/sown
+- **Denude** - _verb._ to strip something of its coverings and make it bare
+- **Fulvous** -  _adj._ reddish-yellow, tawny, brown-orange
+- **Semiotics** - _noun._ the study of signs and symbols and their use or interpretation
+- **Sangfroid** - _noun._ literally “blood cold”--coolness under pressure
+- **Osseous** - _adj._ consisting of or turned to bone--ossified
+- **Boscage** - _noun._ massed trees or shrubs
+- **Involuted** - _adj._ complicated, abstruse
+- **Putative** - _adj._ generally considered or reported to be
+- **Tumescent** - _adj._ engorged, as a tumor
+- **Annular** - _adj._ ring-shaped, circular
+- **Erumpent** - _adj._ bursting forth through a surface
+- **Mens sana** - _misc._ from latin “mens sana in corpore sano” (a healthy mind in a healthy body)
+- **Teratoid** - _noun._ an abnormal tumor
+- **Invaginate** - _verb._ (anatomy, biology) to turn outward or fold in such a way that an inner surface becomes an outer surface
+- **Scabrous** - _adj._ rough, as though (or literally) covered with scabs OR salacious
+- **Gestalt** - _noun._ psychological term denoting a “whole,” especially as perceived more than and prior to the sum of its parts
+- **Frustrum** - _noun._ in geometry, the section of a solid sandwiched between two parallel planes, especially where one plane is the base
+- **Afflatus** - _noun._ a divine impulse or inspiration
+- **Acclivated** - _adj._ upward-sloping
+- **Apotropaic** - _adj._ having the power to avert evil influences or bad luck
+- **Micturate** - _verb._ to urinate
+- **Lacuna** - _noun._ an unfilled space or interval. A gap
+- **Vim** - _noun._ energy, vigor
+- **Redolent** - _adj._ strongly reminiscent or suggestive of
+- **Interdict** - _verb._ to forbid or prohibit
+- **Sedulous** - _adj._ showing dedication and diligence
+- **Lordotic** - _adj._ displaying inward curving of the lower spine
+- **Tumid** - _adj._ tumescent, swelling
+- **Felo de se** - _misc._ suicide. From latin “felon of self”
+- **Quotidian** - _adj._ everyday, ordinary
+- **Ibid** - _misc._ staple of footnotes/endnotes, essentially an abbreviation for “same source as previous”
+- **Tiller** - _noun._ the lever affixed to a boat’s rudder, used for steering (e.g. “at the tiller”)
+- **Solecistic** - _adj._ a solecism is a grammatical mistake. Greeks developed this term to pejoratively reference citizens of Soli, Cicilia who they believed had bastardized the language
+- **Lissome** - _adj._ thin, supple, and graceful (of a person’s body)
+- **Swivet** - _noun._ a fluster or panic
+- **Falcate** - _adj._ curved like a sickle, hooked
+- **Anapestic** - _adj._ denoting a poetic meter consisting of three syllables in which the first two are unstressed and the third is stressed (e.g. “contradict” or “understand”. duh duh DUH)
+- **Profligate** - _adj._ excessive, recklessly extravagant and wasteful of resources
+- **Baroque** - _adj._ denoting a european style of the 17th and 18th centuries, or more generally, lavish/ornate in style
+- **Picayune** - _adj._ petty and worthless
+- **Atavistic** - _adj._ characterized by a regression to something ancestral or ancient (“atavistic fears of angering the gods”)
+- **Etiology** - _noun._ the causes of a problem or condition; the investigation/attribution of the cause of something
+- **Chyme** - _noun._ the pulpy acidic fluid which passes from stomach to small intestine--stomach juices and digested food
+- **Assuasive** - _adj._ soothing, freeing from fear or anxiety
+- **Avuncular** - _adj._ relating to an uncle
+- **Eschatology** - _noun._ the section of theology concerned with death, judgment, destiny, and mankind’s final fate
 - AIR GUITAR
   heading:: true
-- **Philistinism** - a philistine is someone hostile or indifferent to the arts
-- **Miasma** - a highly unpleasant smell or vapor
-- **Surfeit** - an excessive amount of something, a surplus
-- **Insouciant** - indifferent, nonchalant
-- **Abject** - (of a person or their behavior) completely without pride or dignity; self-abasing.
-- **voile** - thin, semitransparent fabric (what you’d describe as “sheer”)
-- **unctuous** - excessively flattering--sycophantic, obsequious
-- **tristesse** - a state of melancholy sadness
-- **bohemian** - a socially unconventional person, especially one involved in the arts
-- **intransigent** - unwilling to change one’s views on something, uncompromising, inflexible
-- **ebullient** - cheerful and energetic
-- **vitrine** - a glassy display case
-- **rococo** - (of furniture/art) characterized by a late Baroque period ornateness
-- **screed** - a long piece of writing, especially a tedious one
-- **exegesis** - critical explanation/interpretation, esp of scripture
-- **protean** - tending/able to change frequently
-- **cynosure** - a person/thing that is the center of all attention
-- **lingua franca** - a shared language established between two people who do not share native language
-- **speculative** - (of an investment) having a high risk of loss
-- **palimpsest** - a manuscript or piece of writing material on which the original writing has been effaced to make room for later writing but of which traces remain.
-- **elegiac** - relating to an elegy, which is a poetic lament for the dead
-- **parataxis** - two yellow cars parked curbside in new york! No, it’s a literary technique where clauses are strung together without subordinate conjunctions, the most famous example being “vidi, vidi, vici”--I came, I saw, I conquered. (i.e., not “I came, then I saw, and finally I conquered” or some other such phrasing which establishes a hierarchy or distinction in importance amongst clauses)
-- **parochial** - of limited scope or importance
-- **callow** - (of a youth) inexperienced, immature
-- **goyim** - plural of ‘goy,’ which is a Jewish term for a non-Jewish person (so a gentile?)
-- **salutary** - (especially of something perceived as unpleasant) producing good effects, beneficial
-- **felicity** - intense happiness
-- **polemic** - a strong written/verbal attack on something or someone
-- **vertiginous** - causing vertigo
-- **profusion** - an abundance of something
-- **dialectical** - relating to the logical discussion of ideas and opinions
-- **aleatory** - based on the throw of the dice; random
-- **imprimatur** - a guarantee or acceptance that something is of a good standard (etymologically derived from such a decree by the Catholic church)
-- **lumpen** - (in marxist contexts) uninterested in revolutionary advancement
-- **repudiate** - reject, disavow
-- **ludic** - showing spontaneous playfulness
-- **veldt** - (or veld) open, uncultivated grassland in the south of africa
-- **verisimilar** - having the appearance of truth; probable
-- **vagary** - an unexpected and inexplicable change in a situation or someone’s behavior
-- **simulacrum** - an image or representation of something, OR an unsatisfactory imitation
-- **armature** - a metal framework upon which a clay sculpture is molded
-- **pastiche** - a work of art that imitates another work, style, or artist
-- **delectation** - pleasure and delight
-- **cosmopolitan** - containing people from many different countries
-- **ineluctable** - unable to be avoided, inescapable
-- **contingency** - a possible future event/circumstance that can’t be predicted with certainty
-- **staid** - respectable and unadventurous, sedate
-- **rheostat** - an instrument for adjusting electrical current by varying the resistance
-- **diffident** - modest/shy because of a lack of self-confidence
-- **gentrify** - make more polite, refined, or respectable
-- **tableau** - (plural tableaux) a group of models or motionless figures representing a scene from a story or from history; a tableau vivant.
-- **haptic** - relating to the sense of touch, in particular relating to the perception and manipulation of objects using the senses of touch and proprioception
-- **veridical** - truthful; coinciding with reality
-- **fiat** - a formal authorization or declaration; a decree
-- **teleological** - relating to or involving the explanation of phenomena in terms of the purpose they serve rather than of the cause by which they arise.
-- **fatuous** - silly and pointless
-- **perspicacious** - having a ready insight and understanding of things
-- **unction** - the action of anointing someone with oil or ointment as a religious rite or as a symbol of investiture as a monarch.
-- **satiety** - the state/feeling of being satiated
-- **bucolic** - relating to the pleasant aspects of the countryside
-- **benison** - a blessing (i.e. a benefit)
+- **Philistinism** - _noun._ indifference or hostility toward the arts
+- **Miasma** - _noun._ a highly unpleasant smell or vapor
+- **Surfeit** - _noun._ an excessive amount of something, a surplus
+- **Insouciant** - _adj._ indifferent, nonchalant
+- **Abject** - _adj._ (of a person or their behavior) completely without pride or dignity; self-abasing.
+- **voile** - _noun._ thin, semitransparent fabric (one you might describe as “sheer”)
+- **unctuous** - _adj._ excessively flattering--sycophantic, obsequious
+- **tristesse** - _noun._ a state of melancholy sadness
+- **bohemian** - _adj._ socially unconventional, in an artistic way OR a socially unconventional person, especially one involved in the arts
+- **intransigent** - _adj._ unwilling to change one’s views on something, uncompromising, inflexible
+- **ebullient** - _adj._ cheerful and energetic
+- **vitrine** - _noun._ a glassy display case
+- **rococo** - _adj._ (of furniture/art) characterized by a late Baroque period ornateness
+- **screed** - _noun._ a long piece of writing, especially a tedious one
+- **exegesis** - _noun._ critical explanation/interpretation, esp of scripture
+- **protean** - _adj._ tending/able to change frequently
+- **cynosure** - _noun._ a person/thing that is the center of all attention
+- **lingua franca** - _misc._ a shared language established between two people who do not share native language
+- **speculative** - _adj._ (of an investment) having a high risk of loss
+- **palimpsest** - _noun._ a manuscript or piece of writing material on which the original writing has been effaced to make room for later writing but of which traces remain.
+- **elegiac** - _adj._ relating to an elegy, which is a poetic lament for the dead
+- **parataxis** - _noun._ two yellow cars parked curbside in new york! No, it’s a literary technique where clauses are strung together without subordinate conjunctions, the most famous example being “vidi, vidi, vici”--I came, I saw, I conquered. (i.e., not “I came, then I saw, and finally I conquered” or some other such phrasing which establishes a hierarchy or distinction in importance amongst clauses)
+- **parochial** - _adj._ of limited scope or importance
+- **callow** - _adj._ (of a youth) inexperienced, immature
+- **goyim** - _misc._ a Jewish term used to refer to non-Jewish people
+- **salutary** - _adj._ (especially of something perceived as unpleasant) producing good effects, beneficial
+- **felicity** - _noun._ intense happiness
+- **polemic** - _noun._ a strong written/verbal attack on something or someone
+- **vertiginous** - _adj._ causing vertigo
+- **profusion** - _noun._ an abundance of something
+- **dialectical** - _adj._ relating to the logical discussion of ideas and opinions
+- **imprimatur** - _noun._ a guarantee or acceptance that something is of a good standard (etymologically derived from such a decree by the Catholic church)
+- **lumpen** - _misc._ (in marxist contexts) uninterested in revolutionary advancement
+- **repudiate** - _verb._ reject, disavow
+- **ludic** - _adj._ showing spontaneous playfulness
+- **veld** - _noun._ open, uncultivated grassland in the south of africa
+- **verisimilar** - _adj._ having the appearance of truth; probable
+- **vagary** - _noun._ an unexpected and inexplicable change in a situation or someone’s behavior
+- **simulacrum** - _noun._ an image or representation of something, OR an unsatisfactory imitation
+- **armature** - _noun._ a metal framework upon which a clay sculpture is molded
+- **pastiche** - _noun._ a work of art that imitates another work, style, or artist
+- **delectation** - _noun._ pleasure and delight
+- **cosmopolitan** - _adj._ containing people from many different countries
+- **ineluctable** - _adj._ unable to be avoided, inescapable
+- **contingency** - _noun._ a possible future event/circumstance that can’t be predicted with certainty
+- **staid** - _adj._ respectable and unadventurous, sedate
+- **rheostat** - _noun._ an instrument for adjusting electrical current by varying the resistance
+- **diffident** - _adj._ modest/shy because of a lack of self-confidence
+- **gentrify** - _verb._ make more polite, refined, or respectable
+- **tableau** - _noun._ a group of models or motionless figures representing a scene from a story or from history
+- **haptic** - _adj._ relating to the sense of touch, in particular relating to the perception and manipulation of objects using the senses of touch and proprioception
+- **veridical** - _adj._ truthful; coinciding with reality
+- **fiat** - _noun._ a formal authorization or declaration; a decree
+- **teleological** - _adj._ relating to or involving the explanation of phenomena in terms of the purpose they serve (rather than the cause by which they arise, i.e. "etiological)"
+- **fatuous** - _adj._ silly and pointless
+- **perspicacious** - _adj._ having a ready insight and understanding of things
+- **unction** - _verb._ the action of anointing someone with oil or ointment as a religious rite or as a symbol of investiture as a monarch.
+- **satiety** - _noun._ the state/feeling of being satiated
+- **bucolic** - _adj._ relating to the pleasant aspects of the countryside
+- **benison** - _noun._ a blessing or benefit
 - WHITE NOISE
   heading:: true
-- **Liturgy** - a form according to which public worship is conducted
-- **Glowering** - having an angry or sullen look on one’s face
-- **Laconic** - using few words
-- **Grist** - grain intended to become flower, or, a useful material especially to back up an argument
-- **Maunder** - to talk in a rambling manner
-- **Ruminant** - cows, sheep, deer, even-toed ungulate mammals who chew cud regurgitated from their rumen
+- **Liturgy** - _noun._ a form according to which public worship is conducted
+- **Glowering** - _adj._ having an angry or sullen look on one’s face
+- **Laconic** - _adj._ using few words
+- **Grist** - _noun._ grain intended to become flower, or, a useful material especially to back up an argument
+- **Maunder** - _verb._ to talk in a rambling manner
+- **Ruminant** - _noun._ cows, sheep, deer, even-toed ungulate mammals who chew cud regurgitated from their rumen
 - TO THE LIGHTHOUSE
   heading:: true
-- **Prolegomena** - a prolegomenon is a critical or discursive intro to a book
-- **Sop** - a concession of little value, a token gesture
-- **Blandishment** - a flattering gesture to persuade someone
-- **Hoary** - grayish white
-- **Quay** - a platform projecting into water for the purpose of loading and unloading ships
-- **Imputation** - a charge or claim of wrongdoing
-- **Fractious** - irritable and quarrelsome, esp of a child
-- **Valediction** - the act of saying farewell
-- **Rubicund** - ruddy
-- **Moribund** - in terminal decline; dying
-- **Rhapsody** - an effusive expression of feeling
-- **Base-born** - born to low social class, illegitimate or bastard
+- **Prolegomenon** - _noun._ a critical or discursive introduction to a book
+- **Sop** - _noun._ a concession of little value, a token gesture
+- **Blandishment** - _noun._ a flattering gesture to persuade someone
+- **Hoary** - _adj._ grayish white
+- **Quay** - _noun._ a platform projecting into water for the purpose of loading and unloading ships
+- **Imputation** - _noun._ a charge or claim of wrongdoing
+- **Fractious** - _adj._ irritable and quarrelsome, esp of a child
+- **Valediction** - _noun._ the act of saying farewell
+- **Rubicund** - _adj._ ruddy
+- **Moribund** - _adj._ in terminal decline; dying
+- **Rhapsody** - _noun._ an effusive expression of feeling
+- **Base-born** - _adj._ born to low social class, illegitimate or bastard
 - MISC RUNNING LIST
   heading:: true
-- **passerine** - relating to or denoting birds of a large order distinguished by feet that are adapted for perching, including all songbirds. As a noun, a perching bird.
-- **trenchant** - vigorous or incisive in expression or style
+- **passerine** - _adj._ relating to or denoting birds of a large order distinguished by feet that are adapted for perching, including all songbirds OR as a noun, a perching bird.
+- **trenchant** - _adj._ vigorous or incisive in expression or style
+- **prosaic** - _adj._ having the style of prose, lacking poetic beauty; commonplace, unromantic. Compare with "poetic"
+- **pernicious** - _adj._ having a harmful effect in a gradual or subtle way
+- **eldritch** - _adj._ weird and sinister or ghostly
+- **scintillating** - _adj._ brightly shining or sparkling; or, brilliantly and excitingly clever/skillful
+- **abstruse** - _adj._ difficult to understand, obscure
+- **recherché** - _misc._ rare, exotic, or obscure
+- **shambolic** - _adj._ chaotic, disorganized, or mismanaged
+- **saudade** - _noun._ a feeling of longing, melancholy, or nostalgia that is supposedly characteristic of the Portuguese or Brazilian temperament
 -
