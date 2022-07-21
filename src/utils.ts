@@ -41,12 +41,13 @@ export const getWordBank = (): WordBankItem[] => {
       );
     }
 
-    const wrongDefA =
-      definitionPool[randInRange(0, definitionPool.length)].definition;
-    const wrongDefB =
-      definitionPool[randInRange(0, definitionPool.length)].definition;
-    const wrongDefC =
-      definitionPool[randInRange(0, definitionPool.length)].definition;
+    const idxA = randInRange(0, definitionPool.length);
+    const idxB = uniqRandInRange(0, definitionPool.length, [idxA]);
+    const idxC = uniqRandInRange(0, definitionPool.length, [idxA, idxB]);
+
+    const wrongDefA = definitionPool[idxA].definition;
+    const wrongDefB = definitionPool[idxB].definition;
+    const wrongDefC = definitionPool[idxC].definition;
 
     const definitions = new Array(4).fill(null);
     const correctIdx = randInRange(0, 3);
@@ -63,4 +64,12 @@ export const getWordBank = (): WordBankItem[] => {
 
 const randInRange = (min: number, max: number): number => {
   return Math.floor(Math.random() * (max - min) + min);
+};
+
+const uniqRandInRange = (min: number, max: number, exclusions: number[]) => {
+  let num = randInRange(min, max);
+  while (exclusions.includes(num)) {
+    num = randInRange(min, max);
+  }
+  return num;
 };
