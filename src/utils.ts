@@ -41,14 +41,15 @@ export const getWordBank = (): WordBankItem[] => {
       );
     }
 
+    // get 3 wrong definitions, disallowing duplicates
     const idxA = randInRange(0, definitionPool.length);
     const idxB = uniqRandInRange(0, definitionPool.length, [idxA]);
     const idxC = uniqRandInRange(0, definitionPool.length, [idxA, idxB]);
-
     const wrongDefA = definitionPool[idxA].definition;
     const wrongDefB = definitionPool[idxB].definition;
     const wrongDefC = definitionPool[idxC].definition;
 
+    // fill definitions array with correct answer + 3 wrong answers
     const definitions = new Array(4).fill(null);
     const correctIdx = randInRange(0, 3);
     definitions[correctIdx] = correctDef;
